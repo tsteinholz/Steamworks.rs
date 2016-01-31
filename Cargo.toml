@@ -1,0 +1,17 @@
+[package]
+name = "Steamworks.rs"
+version = "0.1.0"
+authors = ["tsteinholz <tsteinholz@yahoo.com>"]
+description = "A Rust-Lang port of Valve's Steamworks SDK"
+# documentation = "TODO"
+# homepage = "TODO"
+repository = "https://github.com/tsteinholz/Steamworks.rs"
+
+keywords = ["steamworks", "valve", "steam", "sdk"]
+
+readme = "README.md"
+license = "MIT"
+license-file = "LICENSE"
+
+[dependencies]
+libc = "0.2.6"
