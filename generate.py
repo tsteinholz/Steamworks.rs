@@ -14,7 +14,7 @@ import sys
 c_file = sys.argv[1]
 with open(c_file) as f:
     code = f.readlines()
-    export = ''
+export = ''
 for line in code:
     line = line.replace("SB_API ", "")
     line = line.replace("S_CALLTYPE ", "")
